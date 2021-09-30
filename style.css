@@ -1,0 +1,52 @@
+body {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.border {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.534);
+  color: white;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 6px;
+}
+.border:hover {
+  background-color: rgba(0, 0, 0, 0.722);
+}
+#loading-image {
+  opacity: 0.7;
+  width: 130px;
+  margin: auto;
+}
+
+#btn-submit-date {
+  width: 307px;
+  margin: 1rem 0rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+#date-input {
+  width: 300px;
+  margin: 0.5rem 0rem 0rem 0rem;
+  height: 25px;
+}
+#message {
+  padding: 1rem;
+  font-size: 17px;
+}
